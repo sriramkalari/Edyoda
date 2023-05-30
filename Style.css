@@ -1,0 +1,667 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+.main-container{
+    background-color: #1f1f38;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: -12px;
+    font-family: Raleway,sans-serif;
+    height: 890px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   height: 80px;
+    
+    
+}
+
+.top-header-section-courses{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.top-header-section-signup{
+    display: flex;
+    gap: 60px;
+    margin-left: 70px;
+}
+
+.logo{
+    font-size: 2.1em;
+    margin-top: 0;
+    width: 130px;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    
+   
+}
+
+ a{
+    text-decoration: none;
+}
+.header-select{
+    border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1f1f38;
+    color: #fff;
+    padding-right: 10px;
+    max-width: 36%;
+}
+.header-select::after {
+    max-width: 100%;
+  }
+
+  .top-header{
+    display: flex;
+    gap: 50px;
+}
+
+.top-header a{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1f1f38;
+    color: #fff;
+}
+
+.search-icon{
+    
+    text-align: center;
+    cursor: pointer;
+    background-color: #1f1f38;
+    color: #fff;
+    
+}
+
+.Log-in{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1f1f38;
+    color: #fff;
+}
+.Sign-up{
+    background: 0 0;
+    background-color: #2f405f;
+    font-weight: 500;
+    text-align: center;
+    color: hsla(0,0%,100%,.7);
+    width: auto;
+    font-size: 0.9em;
+    padding: 0.5em 2em;
+   margin-top: -5px;
+    box-shadow: none;
+    min-width: 136px;
+    border-radius: 35px
+}
+.Sign-up:hover{
+    background-color: #0084ff;
+    cursor: pointer;
+}
+
+.mainpage-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 7rem;
+   
+}
+
+.LandingSectionNew_Landing-heading{
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5.5vw;
+    color: #fff;
+}
+.LandingSectionNew_skill{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5.5vw;
+    color: #008ffb;
+}
+.LandingSectionNew_Landing-Text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.1vw;
+    letter-spacing: .01em;
+    color: #fff;
+}
+.Landing-section-button {
+    position: relative;
+    padding-right: 30px; 
+    background-color: #0084ff;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    font-size: 0.9em;
+    padding: 0.5em 2em;
+   margin-top: 20px;
+    box-shadow: none;
+    min-width: 136px;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  
+  .Landing-section-button .circle-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    
+    
+  }
+  .new-logo{
+    position: absolute;
+    font-size: .55em;
+    top: .2em;
+    left: 60em;
+    padding: .3em .9em;
+    background-color: green;
+    border-radius: 40%;
+  }
+  .Landing-section-button i {
+    color: #fff;
+  }
+
+  .partners-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px 10px;
+    
+  }
+  
+  .partners{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+ .partners img{
+         width: 10%;
+         height: 20%;
+ } 
+ .heading{
+   white-space: nowrap;
+   border-right: 1px solid black; 
+  padding-right: 10px;
+ }
+ .exploring-section{
+    margin-left: 11%;
+ }
+ .exploring-section p{
+    margin-top: -20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: .03em;
+    color: #6a6e76;
+    font-size: 1.7vw;
+ }
+ .exploring-section h1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .03em;
+    font-size: 3.5vw;
+    color: #1c1d1d;
+ }
+ .course-content{
+    height: 200px;
+    width: 120px;
+ }
+ .course-content-img{
+    background-color: #e0e9ff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+ }
+ .course-content-imgs{
+    background-color: #e0e9ff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+ }
+ .course-content-img img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 14px;
+ }
+ .course-content-imgs img{
+    margin-left: 15px;
+    margin-top: 25px;
+ }
+ .dg-market-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 14px;
+    margin-top: 10px;
+ }
+ .exploring-section-courses{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+   
+ }
+ .exploring-section-courses a{
+    max-width: 15%;
+   
+ }
+
+
+ .programming-languages-img{
+    margin-left: 23px;
+    margin-top: 35px;
+ }
+
+ .description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-top: 120px;
+ }
+ .description span{
+    color: rgb(0, 168, 255);
+ }
+ .description h1{
+    font-size: 3.5vw;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    
+    letter-spacing: .03em;
+    margin: 0;
+    color: #1c1d1d;
+ }
+ .description a{
+    margin-top: 50px;
+    margin-right: 120px;
+    text-decoration: underline;
+    color: rgb(0, 168, 255);
+ }
+
+ .course-content span{
+    color: #2c3c66;
+    font-weight: 550;
+    font-size: 14px;
+    font-family: Raleway,sans-serif;
+ }
+
+ .course-info-container{
+    display: flex;
+   margin-left: 200px;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+ }
+ .course-info{
+    height: 340px;
+    box-shadow: 0 4px 8px rgba(96, 100, 179, 0.161);
+ }
+ .course-info img{
+    overflow: hidden;
+    object-fit: contain;
+    border-radius: 10px;
+ }
+.course-info h3{
+    font-family: Raleway;
+    font-style: normal;
+    color: #2c3c66;
+    font-weight: 600;
+    font-size: 1.125em;
+    margin-left: 20px;
+}
+ .course-info-content{
+      padding: 20px;
+ }
+ .info-button{
+    margin-top: 5px;
+    border-radius: 4px;
+    padding: .5em 1em;
+    font-size: .75em;
+    background-color: rgb(0, 168, 255);
+    color: #fff;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -.1px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+ }
+ .info-button2{
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: .5em 1em;
+    font-size: .75em;
+    background-color: rgb(0, 168, 255);
+    color: #fff;
+    font-weight: 300;
+    margin-left: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -.1px;
+    border: none;
+ }
+.master-class{
+   height: 170px;
+}
+ .user-info{
+    background-color: #e0f1ff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+ }
+ .promotions{
+    margin-left: 13%;
+ }
+ .promotions h1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5vw;
+    letter-spacing: .03em;
+    margin: 0;
+    color: #1c1d1d;
+ }
+ .promotions h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+    letter-spacing: .03em;
+    color: #6a6e76;
+    margin: 0;
+ }
+ .promotions img{
+    margin-top: 20px;
+ }
+ .promotion-card{
+    max-width: 100%;
+    height: 150px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+ }
+ .promotion-card2{
+    max-width: 100%;
+    height: 150px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    margin-top: 20em;
+    margin-left: 7em;
+ }
+ .promotion-container{
+    display: grid;
+    margin-top: 10rem;
+    margin-left: 5rem;
+ }
+ .promotion-card h4{
+    font-size: 1.1vw;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .03em;
+    color: #1c1d1d;
+    padding-left: 5%;
+   
+ }
+ .promotion-card img{
+    margin-top: 33px;
+    float: right;
+    margin-right:20px;
+ }
+
+ .promotion-card2 h4{
+    font-size: 1.1vw;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .03em;
+    color: #1c1d1d;
+    padding-left: 5%;
+   
+ }
+ .promotion-card2 img{
+    margin-top: 33px;
+    float: right;
+    margin-right:20px;
+ }
+ .AtEdyoda-section{
+    display: flex;
+    margin-top: 40px;
+ }
+
+ .users-heading h4{
+    font-size: 5vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .03em;
+    color: #0096ff;
+    margin-left: 13%;
+ }
+ .users-content{
+    display: flex;
+    align-items: center;
+    margin-top: -80px;
+    margin-left: 12rem;
+ }
+ .users-content span{
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Raleway,sans-serif;
+    letter-spacing: 1.2198px;
+    font-style: normal;
+    
+ }
+ .users-content img{
+    height: 50px;
+ }
+ .download-img{
+    margin-left: 13rem;
+    margin-top: 2em;
+ }
+ .question-class{
+    margin-left: 12rem;
+    
+ }
+ .candidates-exp{
+  max-width: 28%;
+  margin-left: 12rem;
+ }
+ .candidates-exp img{
+    border-radius: 50%;
+ }
+ .candidates-exp h4{
+    font-size: 1.3vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1c1d1d;
+    font-family: Raleway;
+    font-style: normal;
+    letter-spacing: .03em;
+ }
+ .candidates-exp span{
+    font-weight: 400;
+    margin-top: -200px;
+    font-size: 1.2vw;
+    color: #6a6e76;
+    font-family: Raleway;
+    font-style: normal;
+    letter-spacing: .03em;
+   
+ }
+ .user-details{
+    display: flex;
+ }
+ .candidates-details{
+    margin-left: 2rem;
+
+ }
+ .candidates-info{
+       display: flex;
+ }
+ 
+.image-container{
+ float: left;
+ margin-left: 20rem;
+ margin-top: -20rem;
+    height: 700px;
+    width: 70%;
+    background: url(/images/UserLove.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+}
+
+.hiring-partners img{
+    width: 90%;
+    height: 40%;
+}
+.hiring-partners h3{
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 12%;
+}
+.articles h3{
+    font-weight: 600;
+    font-size: 3.5vw;
+    text-align: left;
+    font-family: Raleway,sans-serif;
+    color: #000;
+    font-style: normal;
+    font-stretch: normal;
+    padding-left: 12%;
+}
+.articles-content {
+   display: flex;
+   flex-direction: row;
+
+}
+
+.articles-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/UserLove.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 20px;
+    overflow: hidden;
+}
+ 
+
+.footer{
+    background-image: url(./images/FooterBg.webp);
+    
+}
+  .footer-col{
+    display: grid;
+    align-items: center;
+    padding-left: 13%;
+    padding-top: 2%;
+  }
+  .footer-row{
+    display:flex ;
+    align-items: flex-start;
+   
+  }
+  .footer-col a{
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+  .footer-col span{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+  }
+ 
+  .footer-col h4{
+    color: hsla(0,0%,100%,.5);
+    font-weight: 500
+  }
+  .footer-bottom{
+   
+    background-color: #172746;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 15px;
+    margin-right: 7rem
+   
+}
+
+.footer-bottom img{
+    height: 20px;
+    margin-bottom: 22px;
+   
+}
+
+  .footer-whitebottom{
+    color: #424242;
+    text-align: center;
+    background: #fff;
+    padding: .5%;
+    font-size: 13px;
+    margin-top: 1%;
+    
+  }
+  .social-media{
+    color: #fff;
+    margin-top: 2rem;
+    display: flex;
+    gap: 15px;
+    
+  }
+
+  
